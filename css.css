@@ -184,6 +184,36 @@ h1{
     color: inherit;
 }
 
+.login_signup_box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto; 
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.login_signup{
+    display: flex;
+    flex-direction: row;
+}
+
+.signup_box{
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.input_name {
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.input_name_text{
+    width: 300px;
+    height: 56px;
+    background-color: rgb(240,245,245);
+}
+
 
 @media (max-width: 1000px) {
 

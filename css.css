@@ -34,6 +34,18 @@ body {
     padding-right: 30px;
 }
 
+#body_text_signup{
+
+    font: "Open Sans", sans-serif;
+    letter-spacing: -0.013em;
+    display: block; 
+    margin-bottom: 40px; 
+    color: #39424e;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
 .body_text_heading {
     font-family: mySecondFont;
 
@@ -206,6 +218,12 @@ h1{
     #for_developer{
         padding: 1px 0px;
     }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
 }
 
 @font-face {

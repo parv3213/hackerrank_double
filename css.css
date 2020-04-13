@@ -3,7 +3,7 @@
 }    
 body {
     /* margin: 75px 50px 75px 200px; */
-    font-family: "Source Code Pro", sans-serif;
+    font-family: myFirstFont;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
@@ -25,11 +25,18 @@ body {
 
 #body_text{
     display: flex;
+    font: "Open Sans", sans-serif;
+    letter-spacing: -0.013em;
     flex-direction: column;
     margin-bottom: 40px; 
     color: #738F93;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.body_text_heading {
+    font-family: mySecondFont;
+
 }
 
 #for_company_developer 
@@ -40,8 +47,8 @@ body {
 
 #for_company
 {
-    color: black;
-    font-family: "Source Code Pro", sans-serif;
+    color: #39424e;
+    font-family: myFirstFont;
     padding: 1em 0em 0em 0em;
     width: 300px;
 }
@@ -71,8 +78,8 @@ a:hover{
 
 #for_developer
 {
-    color: black;
-    font-family: "Source Code Pro", sans-serif;
+    color: #39424e;
+    font-family: myFirstFont;
     padding: 1em 0em 0em 1em;
     width: 300px;
 }
@@ -199,4 +206,14 @@ h1{
     #for_developer{
         padding: 1px 0px;
     }
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2);
+}
+
+@font-face {
+font-family: mySecondFont;
+src: url(font/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2);
 }
